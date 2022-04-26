@@ -1,0 +1,118 @@
+.about-container{
+    width: 100%;
+    /* height: 100vh; */
+    padding-top: 50px;
+    /* height: max-content; */
+    /* background-color: rebeccapurple; */
+    margin-top: 50px;
+}
+.about-headings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-headings h2{
+    color: var(--main);
+}
+.about-headings h5{
+    color: var(--textLight);
+
+}
+.about-img-content{
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+  /* background-color: aqua; */
+}
+.about-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 10px; */
+    /* margin: auto; */
+    /* padding-top: 40px; */
+   
+    
+}
+.about-content-cards{
+    background-color: var(--bgVariant);
+    width: 30%;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+.about-content-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-cards-con{
+    display: flex;
+    justify-content: space-between;
+}
+.about-img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-img-backround img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+.about-img-backround img:hover{
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+.about-img-backround{
+   width: 70%;
+   /* height: 100%; */
+   /* height: 80%; */
+   /* overflow: hidden; */
+   background: linear-gradient(10deg,transparent, var(--main), transparent);
+   border-radius: 10px;
+   aspect-ratio: 1/1;
+   display: grid;
+   place-items: center;
+   /* margin: auto; */
+   
+}
+
+.about-content-card small{
+    color: var(--textLight);
+    text-align: center;
+
+}
+.about-content p{
+    color: var(--textLight);
+}
+
+@media screen and (max-width:700px) {
+    .about-container{
+       /* overflow: scroll; */
+       
+    }
+    .about-img-content{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-content{
+        width: 100%;
+    }
+
+    
+}
+@media screen and (max-width:1024px) {
+    .about-container{
+        /* max-height: 700px; */
+    }
+
+}

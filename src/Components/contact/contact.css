@@ -1,0 +1,101 @@
+.contact-con{
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 50px;
+
+}
+.contact-con>h2{
+    color: var(--main);
+    text-align: center;
+
+
+}
+.contact-con>h5{
+    color: var(--textLight);
+    text-align: center;
+}
+.contact-main-con{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    
+}
+.contact{
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.contact-form{
+    width: 60%;
+    padding: 20px;
+
+}
+.contact-main-form{
+    /* max-width: 80%; */
+  
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    /* padding: 20px; */
+    gap: 20px;
+    /* padding-right: 30px; */
+    
+}
+.contact-main-form>input{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid var(--main);
+
+}
+.contact-main-form>textarea{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid var(--main);
+
+}
+.email-whatsapp{
+    padding: 10px;
+    background-color: var(--bgVariant);
+    
+    border-radius: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+   
+    
+}
+.email-whatsapp>a{
+    color: var(--main);
+}
+.userid{
+    color: var(--textLight);
+}
+@media screen and (max-width:700px) {
+    .contact-main-con{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contact-form{
+        width: 100%;
+        padding: 0px;
+    }
+    .contact-main-form{
+        width: 100%;
+        padding: 0px;
+    }
+    .contact{
+        padding: 00px;
+    }
+
+}
+
+

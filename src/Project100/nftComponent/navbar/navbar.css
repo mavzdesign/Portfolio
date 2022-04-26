@@ -1,0 +1,111 @@
+.navbar-con{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    /* gap: 10px; */
+}
+.navbar-mobile{
+    display: none;
+}
+.logo-con{
+    width: 100px;
+    /* padding-top: 10px; */
+    
+
+}
+.logo-con img{
+    width: 100%;
+}
+
+.navigations{
+    display: flex;
+    gap: 30px;
+    /* margin: 10px; */
+    justify-content: center;
+    align-items: center;
+
+}
+.navigations>span{
+    cursor: pointer;
+    font-family: buttonFont;
+}
+.navigations>span:hover{
+    color: var(--main);
+}
+
+.connect-wallet{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* width: 30%; */
+}
+
+@media screen and (max-width:700px) {
+    .navbar-con{
+        display: none;
+    }
+    .navbar-mobile{
+        display: block;
+        position: relative;
+        
+
+    }
+    .nav-mobile{
+        display: flex;
+        justify-content: space-between;
+       
+        
+    }
+    .nav-dropdown{
+        display: block;
+        /* background-color: var(--bgVariant); */
+        /* height: 100vh; */
+        background: var(--bgGrad);
+        padding: 30px;
+        position: absolute;
+        top: 20;
+        right: 0;
+        width: 100%;
+        transition: var(--transition);
+
+        
+    }
+    .navigations-mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        font-family: buttonFont;
+        font-weight: 400;
+    }
+ 
+    .connect-mobile-wallet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      
+    }
+    .nav-dropdownX{
+        display: none;
+    }
+    .hamburger{
+        padding-top: 30px;
+    }
+    .logo-con img{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    /* .navbar-con{
+        display: none;
+    } */
+    .navigations{
+        gap: 10px;
+    }
+    
+}

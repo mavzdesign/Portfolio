@@ -1,0 +1,141 @@
+.trend-con{
+    background: var(--bgGrad);
+    padding-top: 50px;
+    /* height: 1000px; */
+    padding-bottom: 20px;
+}
+.trend-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    /* margin-bottom: 20px; */
+}
+
+
+.cards{
+    width: 80%;
+    /* background-color: aqua; */
+    height: 400px;
+    margin: 0 auto;
+    /* position: relative; */
+    padding: 0px;
+   
+}
+.con-nav-mage{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    /* background-color:darkblue ; */
+    margin: 0 auto 0 22%;
+    /* margin: 0 auto; */
+    /* justify-content: center;
+    align-items: flex-end;
+    gap: 10px; */
+
+}
+
+.trend-cards{
+    /* background-color: bisque; */
+    position: relative;
+    padding-bottom: 65px;
+    width: 100%;
+}
+.navimageleft{
+    /* width: 200px; */
+    width: 100%;
+    cursor: pointer;
+    /* position: absolute;
+    bottom: 0;
+    left: 28%; */
+}
+.css-1qzevvg>img{
+    display: none;
+}
+.navimageright{
+    transform: scaleX(-1);
+    /* width: 200px; */
+    /* width: 40%; */
+    width: 100%;
+    cursor: pointer;
+    /* position: absolute;
+    bottom: 0;
+    left: 52%; */
+
+}
+.navimagecenter{
+    /* width: 40px; */
+    width: 70%;
+    cursor: pointer;
+    /* position: absolute;
+    bottom: 0;
+    left: 47%; */
+    /* margin-top: 20px; */
+    /* padding-top: 20px; */
+    /* background-color: aliceblue; */
+    
+    
+
+}
+.navimageconright{
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    /* padding-right: 20px; */
+    /* background-color: bisque; */
+}
+.navimageconleft{
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    /* background-color: bisque; */
+
+}
+.navimageconcenter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    /* width: 40%; */
+    width: 10%;
+    /* background-color: aqua; */
+}
+.css-1fzpoyk  {
+    opacity: 1 !important;
+}
+.solutionDiv{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    /* z-index: 100; */
+    /* background-color: red; */
+   
+}
+
+@media screen and (max-width: 700px){
+
+    .solutionDiv{
+        display: none;
+    }
+    .cards{
+        /* margin: 0 18% 0 auto; */
+        margin: 0 0 0 auto;
+        height: 300px;
+        padding-top: 10px;
+        /* width: 50%; */
+        
+        
+    }
+    .trend-cards{
+        padding: 0px;
+    }
+    .trend-con{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 300px){
+    .cards{
+        height: 200px;
+    }
+
+}

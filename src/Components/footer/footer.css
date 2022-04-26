@@ -1,0 +1,34 @@
+.footer-body{
+    background-color: var(--main);
+    padding: 40px;
+    width: 100%;
+}
+.footer-section{
+    width: 100%;
+}
+.footer-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.content{
+    display: flex;
+    gap: 20px;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+   
+}
+
+.content>li> a{
+     /* color: var(--bgColor); */
+     /* color: var(--textLight); */
+     color: white;
+
+
+}

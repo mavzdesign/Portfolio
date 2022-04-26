@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: 0;
+  border: 0;
+}
+
+body {
+
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bgColor);
+  color: white;
+  line-height: 1.7;
+  background-image: url("../src/assets/bg-texture.png");
+}
+:root{
+  /* --bgColor: #1f1f38; */
+  --bgColor: #0b091f;
+  --bgVariant: #2c2c6c;
+  --main:#4db5ff;
+  --mainVariant: rgb(77, 181, 255, 0.4);
+  --textLight: rgb(255, 255, 255, 0.6);
+  --transition: all 400ms ease;
+  --containerWidthLg: 75%;
+  --containerWidthMd: 85%;
+  --containerWidthSm: 90%;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.btn{
+  width: max-content;
+  color: var(--main);
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid var(--main);
+  transition: var(--transition);
+}
+.btn:hover{
+  background-color: white;
+  color: var(--bgColor);
+  border-color: transparent;
+}
+.btn-main{
+  background-color: var(--main);
+  color: var(--bgColor);
+}
+img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+.container{
+  width: var(--containerWidthLg);
+  margin: 0 auto;
+  
+
+}
+
+@media screen and (max-width: 1024px){
+  .container{
+    width: var(--containerWidthMd);
+  }
+    
+
+}
+
+@media screen and (max-width: 900px){
+  .container{
+    width: var(--containerWidthSm);
+  }
+    
+
+}

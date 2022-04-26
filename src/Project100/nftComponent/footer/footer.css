@@ -1,0 +1,128 @@
+.footer-con{
+    background: var(--bgGrad);
+    padding-top: 50px;
+    /* padding-bottom: 30px; */
+
+}
+.foot-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.footer-left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: bisque; */
+    
+    justify-content: center;
+}
+.play-logo{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.play-logo img{
+    width: 30%;
+}
+.social-icon{
+    display:flex ;
+    gap: 20px;
+    
+    justify-content: flex-start;
+    width: 100%;
+}
+.footer-center{
+    width: 30% ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: aqua; */
+
+}
+
+.body-con{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+    width: 100%;
+}
+.bodyy{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bodyy span{
+    font-size: 12px;
+    font-family: buttonFont;
+}
+.bodyy h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.footer-right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.input-subscribe{
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    height: 40px;
+    /* height: fit-content; */
+    border-radius: 4px;
+    background-color:rgba(56, 36, 99, 0.6);
+    
+
+}
+.input-subscribe .btn{
+    position: absolute;
+    right: 0;
+}
+.input-subscribe input{
+    height: 100%;
+    border-radius: 4px;
+    background: transparent;
+    color: var(--textColor);
+    padding: 10px;
+    /* width: 40%; */
+    /* background-color:rgba(56, 36, 99, 0.6); */
+}
+.footnote{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--textLight);
+    font-size: 12px;
+    height: 80px;
+    margin-top: 20px;
+    /* background-color: antiquewhite; */
+}
+
+@media screen and (max-width: 700px){
+    .foot-main{
+        flex-direction: column;
+        gap: 20px;
+    }
+     .footer-center, .footer-right{
+        width: 100%;
+    }
+    .footer-left{
+        width: 60%;
+    }
+    .input-subscribe{
+        max-width: 300px;
+    }
+
+}
+

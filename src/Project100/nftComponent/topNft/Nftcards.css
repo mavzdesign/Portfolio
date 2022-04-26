@@ -1,0 +1,43 @@
+.card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--bgVariant);
+    border-radius: 30px;
+    /* max-height: 400px; */
+    
+}
+.cardImage-con{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.cardImage-con img{
+    width: 100%;
+    border-radius: 4px;
+}
+.cardlist-con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.crypto{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.crypto img{
+    width: 10%;
+}
+.cardlist3{
+    color: var(--textLight);
+    font-size: 10px;
+    font-weight: 400;
+}
+@media screen and (max-width:400px){
+    .card{
+        width: 90%;
+    }
+    
+}

@@ -1,0 +1,107 @@
+/* @import url("../../my_projects/src/fonts/GTWalsheimPro-Regular/style.css");
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: 0;
+    border: 0;
+  }
+  @font-face {
+    font-family: projectFont;
+    src: url("../src/fonts/GTWalsheimPro-Bold.woff");
+   
+  }
+  @font-face {
+    font-family: buttonFont;
+    src: url("../src/fonts/GTWalsheimPro-Regular.woff");
+    
+  }
+
+  body{
+    
+    font-family: projectFont;
+   
+    color: var(--textColor);
+    
+    width: 100%;
+  }
+  :root{
+  
+ 
+    --bgGrad: linear-gradient(0deg, #1D0E3D 0%, #0F051D 100%); 
+    
+    --bgVariant: #1D0E3D;
+    --bgColor: rgba(56, 36, 99, 0.8);
+    --main:rgba(211, 69, 136, 1);
+    --textColor: rgba(255, 255, 255, 1);
+    --textLight:rgba(241, 243, 249, 1);
+    --transition: all 400ms ease;
+    --containerWidthLg: 80%;
+    --containerWidthMd: 90%;
+    --containerWidthSm: 90%;
+  
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .btn{
+    width: max-content;
+    color: var(--textColor);
+    background-color:var(--main) ;
+    padding: 10px 36px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid var(--main);
+    transition: var(--transition);
+   font-family: buttonFont;
+   font-weight: 400;
+   user-select: none;
+    
+  }
+  .btn:hover{
+    background-color: white;
+    color: var(--main);
+    border-color: transparent;
+  }
+  img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+  }
+  .container{
+   width: var(--containerWidthLg);
+ 
+   margin: 0 auto;
+   max-width: 1200px;
+    
+  
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  @media screen and (max-width: 1024px){
+    .container{
+      width: var(--containerWidthMd);
+
+    }
+    .btn{
+      padding:10px 20px ;
+    }
+      
+  
+  }
+  
+  @media screen and (max-width: 900px){
+    .container{
+      width: var(--containerWidthSm);
+    }
+    .btn{
+      padding: 10px; ;
+    }
+      
+  
+  }
+  */
