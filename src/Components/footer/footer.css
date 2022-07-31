@@ -18,6 +18,10 @@
     display: flex;
     gap: 20px;
 }
+.content>li>a:hover{
+    color : var(--bgColor)
+
+}
 .social-icons{
     display: flex;
     gap: 20px;
