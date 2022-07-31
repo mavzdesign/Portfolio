@@ -16,7 +16,7 @@ const Experience = () => {
       },
       {
         title:"Javascript",
-        desc: "Experienced",
+        desc: "Intermediate",
         icon: <BsFillPatchCheckFill style={{color:"var(--main)"}}/>
   
       },
@@ -42,13 +42,13 @@ const Experience = () => {
     [
       {
         title:"React",
-        desc: "Experienced",
+        desc: "Intermediate",
         icon: <BsFillPatchCheckFill style={{color:"var(--main)"}}/>
   
       },
       {
         title:"Tailwind",
-        desc: "Experienced",
+        desc: "Intermediate",
         icon: <BsFillPatchCheckFill style={{color:"var(--main)"}}/>
   
       },

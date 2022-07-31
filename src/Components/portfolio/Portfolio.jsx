@@ -1,31 +1,31 @@
 import React from 'react'
 import "./portfolio.css"
-import img1 from "../../assets/portfolio1.jpg"
-import img2 from "../../assets/portfolio2.jpg"
-import img3 from "../../assets/portfolio3.jpg"
+import img1 from "../../assets/vegge.png"
+import img2 from "../../assets/dillivry.png"
+import img3 from "../../assets/playsafe.png"
 
 const Portfolio = () => {
   const myportfolio =
   [
     {
       images: img1,
-      title:"Portfolio Title",
-      link1: "http://github.com",
-      link2: "http://google.com"
+      title:"Veggy",
+      link1: "https://github.com/mavzdesign/react-shopping-cart",
+      link2: "https://legendary-cajeta-ebfa36.netlify.app/"
 
     },
      {
       images: img2,
-      title:"Portfolio Title",
-      link1: "http://github.com",
-      link2: "http://google.com"
+      title:"Dillivry",
+      link1: "https://github.com/mavzdesign",
+      link2: "https://dillivry.com/"
 
     },
     {
       images: img3,
-      title:"Portfolio Title",
-      link1: "http://github.com",
-      link2: "http://google.com"
+      title:"Play safe",
+      link1: "https://github.com/mavzdesign/NFTPROJECT-PLAYSAFE-",
+      link2: "https://curious-profiterole-621e69.netlify.app"
 
     },
 

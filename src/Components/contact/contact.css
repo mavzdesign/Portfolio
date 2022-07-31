@@ -22,6 +22,7 @@
 
     
 }
+
 .contact{
     /* width: 30%; */
     display: flex;
@@ -51,11 +52,14 @@
     background: transparent;
     border: 1px solid var(--main);
 
+    color: white;
+
 }
 .contact-main-form>textarea{
     padding: 10px;
     background: transparent;
     border: 1px solid var(--main);
+    color: white;
 
 }
 .email-whatsapp{

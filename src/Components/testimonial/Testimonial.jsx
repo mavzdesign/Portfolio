@@ -1,8 +1,8 @@
 import React from 'react'
 import "./testimonial.css"
-import img1 from "../../assets/avatar1.jpg"
-import img2 from "../../assets/avatar2.jpg"
-import img3 from "../../assets/avatar3.jpg"
+import img1 from "../../assets/femi.jpeg"
+import img2 from "../../assets/fola.jpeg"
+import img3 from "../../assets/jamiu.jpeg"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
@@ -16,22 +16,22 @@ const Testimonial = () => {
   [
     {
       images: img1,
-      title: "Portfolio Title",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nisi nulla rerum minus vitae assumenda magni, eaque accusantium, corporis eveniet eius. Assumenda quidem id illum vero quo veniam molestias laudantium!"
+      title: "Software Engineer ",
+      text: "Olaolu is one of the Front-end developers I've worked with, He understands the technology, and I trust him with my most demanding projects. His vast knowledge of JavaScript and React is ever-evolving and indispensable. It has been great working with him."
      
 
     },
      {
       images: img2,
-      title:"Portfolio Title",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nisi nulla rerum minus vitae assumenda magni, eaque accusantium, corporis eveniet eius. Assumenda quidem id illum vero quo veniam molestias laudantium!"
+      title:"UI/UX Designer ",
+      text: "Olaolu is one developer I enjoy working with as a designer, he has a proper understanding of how to implement designs to pixel perfect as well as functionalities of its UX. Since i have had opportunity to work with with he always bring my designs to live just the way I envision in my design "
      
 
     },
     {
       images: img3,
-      title:"Portfolio Title",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nisi nulla rerum minus vitae assumenda magni, eaque accusantium, corporis eveniet eius. Assumenda quidem id illum vero quo veniam molestias laudantium!"
+      title:"Software Engineer ",
+      text: "An highly skill personnel, with not just great technical and professional know how but with great interpersonal and communication skills, he is a great team player too and I would love to work with him in the nearest future"
      
 
     },
