@@ -91,13 +91,14 @@
     .contact-form{
         width: 100%;
         padding: 0px;
+        margin-bottom: 10px;
     }
     .contact-main-form{
         width: 100%;
         padding: 0px;
     }
     .contact{
-        padding: 00px;
+        padding: 0px;
     }
 
 }
