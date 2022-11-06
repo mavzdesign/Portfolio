@@ -59,7 +59,7 @@ const About = () => {
               
             }
             </div>
-            <p>I am a frontend software engineer with the passion to build amazing products that proffer solutions to socio-economic problems faced by the world population, while keeping to high standards and best practices. As a professional frontend engineer, I advocate amazing user experiences, as well as aesthetically pleasing and responsive user interfaces. My preferred stack is in core Javascript and ReactJs, I write clean and maintainable codes with a proper architecture using these technologies, and also stay up to date with recent modifications to them.</p>
+            <p>I am a frontend developer with passion to build amazing products that proffer solutions to socio-economic problems faced by the world population, while keeping to high standards and best practices. As a professional frontend engineer, I advocate amazing user experiences, as well as aesthetically pleasing and responsive user interfaces. My preferred stack is in core Javascript and ReactJs, I write clean and maintainable codes with a proper architecture using these technologies, and also stay up to date with recent modifications to them.</p>
             <a href="#contact" className='btn btn-main'> let's talk</a>
          
            
