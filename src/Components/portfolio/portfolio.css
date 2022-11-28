@@ -16,10 +16,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 .portfolio{
     width: 30%;
+    margin-top: 30px;
     
     background-color: var(--bgVariant);
     border: 1px solid transparent;
@@ -42,11 +44,10 @@
     border-radius: 10px;
     overflow: hidden;
     transition: var(--transition);
+    max-height: 250px;
 
 }
-.portfolio-img:hover{
-    /* transform: scale(1.03); */
-}
+
 .portfolio h3{
     margin: 10px 5px;
 }

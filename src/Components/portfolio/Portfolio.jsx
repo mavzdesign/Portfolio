@@ -3,6 +3,7 @@ import "./portfolio.css"
 import img1 from "../../assets/vegge.png"
 import img2 from "../../assets/dillivry.png"
 import img3 from "../../assets/playsafe.png"
+import img4 from "../../assets/sanity.png"
 
 const Portfolio = () => {
   const myportfolio =
@@ -26,6 +27,13 @@ const Portfolio = () => {
       title:"Play safe",
       link1: "https://github.com/mavzdesign/NFTPROJECT-PLAYSAFE-",
       link2: "https://curious-profiterole-621e69.netlify.app"
+
+    },
+    {
+      images: img4,
+      title:"Ecommerce with Sanity",
+      link1: "https://github.com/mavzdesign/ecommerce_sanity",
+      link2: "https://ecomwithsanity.netlify.app/"
 
     },
 

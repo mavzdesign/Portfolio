@@ -15,13 +15,13 @@ const About = () => {
 
     {
       title: "Users",
-      subtitle: "1000+",
+      subtitle: "5000+",
       icons: <FiUsers/>
     },
 
     {
       title: "Projects",
-      subtitle: "2 projects",
+      subtitle: "2 projects(prod)",
       icons: <FaRegFolderOpen/>
     }
   ]
@@ -59,7 +59,7 @@ const About = () => {
               
             }
             </div>
-            <p>I am a frontend developer with passion to build amazing products that proffer solutions to socio-economic problems faced by the world population, while keeping to high standards and best practices. As a professional frontend engineer, I advocate amazing user experiences, as well as aesthetically pleasing and responsive user interfaces. My preferred stack is in core Javascript and ReactJs, I write clean and maintainable codes with a proper architecture using these technologies, and also stay up to date with recent modifications to them.</p>
+            <p> I am a Front-end developer with experience in creating pixel-perfect designs, and developing responsive web-based applications while keeping to high standards and best practices.As a frontend engineer, I advocate amazing user experiences, as well as aesthetically pleasing and responsive user interfaces. My preferred stack is in core Javascript and ReactJs, I write clean and maintainable codes with a proper architecture using these technologies, and  I also stay up to date with recent modifications to them.</p>
             <a href="#contact" className='btn btn-main'> let's talk</a>
          
            
